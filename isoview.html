@@ -1,0 +1,47 @@
+
+<style>
+.cube {
+width: 300px;
+height: 300px;
+transform-origin: 200 200;
+overflow: hidden;
+
+}
+.face {
+transform-origin: 10 0;
+position: absolute;
+width: 100px;
+height: 100px;
+
+}
+.front {
+background: #44bbaa;
+border-color: ;
+border-width:5px;
+border-style:solid;
+transform: rotate(-0deg) skewX(-45deg) translate(100px, 60px) scaleY(0.5);
+border-radius: 5px;
+}
+.top {
+    background:#77bbff;
+    border-color:000000;
+    border-width:5px;
+    border-style:solid;
+transform: skewX(0deg) translate(14px,140px) scaleX(1);
+border-radius: 5px;
+}
+.side {
+    background: #aa99ff;
+    border-color: 000000;
+    border-width:5px;
+    border-style:solid;
+    
+transform: skewY(-45deg) translate(94px,207px) scaleX(0.50) scaleY(1);
+border-radius: 5px;
+}
+</style>
+<div class='cube'>
+    <div class='face front'></div>
+    <div class='face top'></div>
+    <div class='face side'></div>
+</div>
